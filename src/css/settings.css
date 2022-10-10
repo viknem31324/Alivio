@@ -1,0 +1,46 @@
+.wrapper {
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1390px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+main {
+  width: 100%;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}

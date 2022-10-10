@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Avenir Black';
+    src: url("../fonts/Avenir-Black.woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url("../fonts/Georgia-Bold.woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url("../fonts/Georgia.woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../fonts/Lato-Regular.woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../fonts/Lato-Medium.woff");
+    font-style: normal;
+    font-weight: 500;
+}

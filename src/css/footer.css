@@ -1,0 +1,43 @@
+.footer {
+  display: grid;
+  grid-template-rows: 145px 1fr;
+  grid-template-columns: 1fr;
+  height: 654px;
+  background: #245852;
+}
+
+.footer__logo {
+  padding-top: 91px;
+  padding-left: 275px;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  color: #fff;
+}
+
+.nav__list--footer {
+  display: grid;
+  grid-template-rows: 75px 88px 94px 90px;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.nav__item--footer {
+  display: grid;
+  align-content: end;
+  padding-left: 3px;
+}
+
+.nav__item--footer {
+  grid-column: 2;
+}
+
+.nav__link--footer {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+}

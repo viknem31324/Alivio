@@ -1,0 +1,150 @@
+.way {
+  position: relative;
+  display: grid;
+  grid-template-rows: 120px 573px 243px;
+  grid-template-columns: repeat(7, 1fr)
+}
+
+.way__photo {
+  grid-column: 1 / span 4;
+  grid-row: 2;
+  padding-left: 77px;
+}
+
+.way__text {
+  grid-column: 5 / span 3;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: minmax(300px, 584px);
+  grid-template-rows: 50px 176px 120px 1fr;
+  padding-left: 10px;
+}
+
+.way__prev {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+  color: #424242;
+}
+
+.way__title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996d;
+}
+
+.way__desc {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+  padding-right: 50px;
+}
+
+.desc-item {
+    margin-right: 100px;
+}
+
+.way__btn {
+  width: 227px;
+  height: 65px;
+  background: #01996d;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.way__propertys {
+  position: absolute;
+  top: 473px;
+  left: 17px;
+  width: 296.14px;
+  height: 293.9px;
+  display: grid;
+  grid-template-rows: 46px 1fr 44px 1fr;
+  background: #ffffff;
+  border-radius: 4px;
+  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+
+.propertys__desc {
+  display: grid;
+  align-content: end;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 157%;
+  text-align: center;
+  color: #000000;
+}
+
+.propertys__block {
+  width: 110px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.propertys__line {
+  margin-top: 7px;
+  border-bottom: 1px solid #000000;
+}
+
+.propertys__img {
+  margin-top: 13px;
+}
+
+.propertys__name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.9351px;
+  line-height: 157%;
+  text-align: center;
+  color: #000000;
+  margin-top: 7px;
+}
+
+.propertys__title {
+  display: grid;
+  align-content: end;
+  text-align: center;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 157%;
+  color: #000000;
+}
+
+.propertys__list {
+  margin: 0;
+  padding-left: 70px;
+  padding-top: 17px;
+}
+
+.propertys__item {
+  list-style-type: disc;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.6195px;
+  line-height: 157%;
+  color: #000000;
+}
+
+.propertys__item:not(:last-child) {
+  padding-bottom: 17px;
+}
